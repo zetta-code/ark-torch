@@ -1,0 +1,966 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TSS\n"
+"POT-Creation-Date: 2016-03-16 17:46-0300\n"
+"PO-Revision-Date: 2016-03-16 17:46-0300\n"
+"Last-Translator: Thiago S. Santos <thiagos.xsantos@gmail.com>\n"
+"Language-Team: Thiago S. Santos <thiagos.xsantos@gmail.com>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;translate\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: module\n"
+"X-Poedit-SearchPath-1: config\n"
+"X-Poedit-SearchPath-2: vendor/tss\n"
+"X-Poedit-SearchPathExcluded-0: data\n"
+
+#: config/autoload/navigation.global.php:7
+#: module/Application/view/tss/authentication/signin.phtml:8
+#: module/Application/view/tss/authentication/signup.phtml:8
+msgid "Home"
+msgstr "Início"
+
+#: config/autoload/navigation.global.php:23
+#: module/Application/view/tss/authentication/account/index.phtml:1
+#: module/Application/view/tss/authentication/account/index.phtml:3
+msgid "Profile"
+msgstr "Perfil"
+
+#: config/autoload/navigation.global.php:31
+msgid "Sign out"
+msgstr "Sair"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AccountController.php:29
+msgid "Update"
+msgstr "Atualizar"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AccountController.php:48
+msgid "Profile updated with success!"
+msgstr "Perfil atulizado com sucesso!"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AccountController.php:51
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AuthController.php:159
+msgid "Form with errors!"
+msgstr "Formulário com erros!"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AuthController.php:78
+msgid "Sign in with success!"
+msgstr "Entrou com sucesso!"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AuthController.php:82
+msgid "Username or password is invalid."
+msgstr "Nome de usuário ou senha inválida."
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AuthController.php:100
+msgid "You're disconected!"
+msgstr "Você foi desconectado!"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AuthController.php:150
+msgid "Please, confirm your registration!"
+msgstr "Por favor confirme seu registro!"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AuthController.php:151
+msgid "Please, click the link to confirm your registration => "
+msgstr "Por favor, clique no link para confirmar seu registro =>"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AuthController.php:155
+#, php-format
+msgid ""
+"An email has been sent to %s. Please, check your inbox and confirm your "
+"registration!"
+msgstr ""
+"Um email foi enviado para %s. Por favor, verifique sua caixa de entrada e "
+"confirme seu registro!"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AuthController.php:195
+msgid "Token invalid or you already confirmed this link."
+msgstr "Token inválido ou você já confirmou este link."
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AuthController.php:205
+msgid "Email confirmed."
+msgstr "Email confirmado."
+
+#: vendor/tss/authentication/src/TSS/Authentication/Controller/AuthController.php:210
+msgid "Email already verified. Please login!"
+msgstr "Email já verificado. Por favor, faça login!"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Filter/Fieldset/UserFiledsetFilter.php:57
+#: vendor/tss/authentication/src/TSS/Authentication/Filter/SignupFilter.php:52
+#, php-format
+msgid "The username %s already exists"
+msgstr "O nome de usuário %s já existe"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Filter/Fieldset/UserFiledsetFilter.php:75
+#: vendor/tss/authentication/src/TSS/Authentication/Filter/SignupFilter.php:70
+msgid "Invalid email address"
+msgstr "Email inválido"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Filter/Fieldset/UserFiledsetFilter.php:85
+#: vendor/tss/authentication/src/TSS/Authentication/Filter/SignupFilter.php:80
+#, php-format
+msgid "The email %s already exists"
+msgstr "O email %s já existe"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Filter/SignupFilter.php:127
+msgid "You must agree to the terms of use."
+msgstr "Você deve concordar com os termos de uso."
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:44
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:47
+msgid "First Name"
+msgstr "Nome"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:57
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:60
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:70
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:73
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SigninForm.php:30
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SigninForm.php:33
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SignupForm.php:38
+#: module/Application/view/tss/authentication/account/index.phtml:46
+#: module/Application/view/tss/authentication/account/index.phtml:47
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:83
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:86
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SignupForm.php:51
+msgid "Email"
+msgstr "Email"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:96
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SigninForm.php:43
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SigninForm.php:46
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SignupForm.php:64
+#: module/Application/view/tss/authentication/account/index.phtml:51
+#: module/Application/view/tss/authentication/account/index.phtml:52
+msgid "Password"
+msgstr "Senha"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:109
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:112
+#: module/Application/view/tss/authentication/account/index.phtml:61
+msgid "Avatar"
+msgstr "Foto"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:125
+msgid "Gender"
+msgstr "Gênero"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:128
+#: module/Application/view/tss/authentication/account/index.phtml:23
+msgid "Female"
+msgstr "Feminino"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:129
+#: module/Application/view/tss/authentication/account/index.phtml:23
+msgid "Male"
+msgstr "Masculino"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:140
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:143
+msgid "Birthday"
+msgstr "Data de Nascimento"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:153
+#: vendor/tss/authentication/src/TSS/Authentication/Form/Fieldset/UserFieldset.php:156
+msgid "Bio"
+msgstr "Bio"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SigninForm.php:55
+msgid "Remember-me"
+msgstr "Lembrar-me"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SigninForm.php:65
+msgid "Sign me in"
+msgstr "Conecte-me"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SignupForm.php:77
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SignupForm.php:80
+msgid "Confirm Password"
+msgstr "Repita a Senha"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SignupForm.php:89
+msgid "I have read and accepted the terms of use."
+msgstr "Eu li e aceito os termos de uso."
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/SignupForm.php:99
+msgid "Sign me up"
+msgstr "Registe-me"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Form/UserForm.php:43
+msgid "Submit"
+msgstr "Enviar"
+
+#: vendor/tss/authentication/src/TSS/Authentication/Module.php:187
+msgid "Please, sign in."
+msgstr "Por favor, faça o login."
+
+#: module/Application/view/application/index/index.phtml:2
+#, php-format
+msgid "Welcome to %sZend Framework 2%s"
+msgstr "Bem vindo ao %sZend Framework 2%s"
+
+#: module/Application/view/application/index/index.phtml:3
+#, php-format
+msgid ""
+"Congratulations! You have successfully installed the %sZF2 Skeleton "
+"Application%s. You are currently running Zend Framework version %s. This "
+"skeleton can serve as a simple starting point for you to begin building your "
+"application on ZF2."
+msgstr ""
+"Parabéns! Você instalou a %sAplicação Skeleton ZF2%s com sucesso. Você está "
+"usando a versão %s do Zend Framework. Este esqueleto serve simplesmente como "
+"um ponto de inicio na construção da sua aplicação ZF2."
+
+#: module/Application/view/application/index/index.phtml:4
+msgid "Fork Zend Framework 2 on GitHub"
+msgstr "Replique Zend Framework 2 no GitHub"
+
+#: module/Application/view/application/index/index.phtml:12
+msgid "Follow Development"
+msgstr "Acompanhe o Desenvolvimento"
+
+#: module/Application/view/application/index/index.phtml:15
+#, php-format
+msgid ""
+"Zend Framework 2 is under active development. If you are interested in "
+"following the development of ZF2, there is a special ZF2 portal on the "
+"official Zend Framework website which provides links to the ZF2 %swiki%s, "
+"%sdev blog%s, %sissue tracker%s, and much more. This is a great resource for "
+"staying up to date with the latest developments!"
+msgstr ""
+"Zend Framework 2 está sob desenvolvimento ativo. Se vocês está interessado "
+"em acompanhar o desenvolvimento do ZF2, tem um portal ZF2 especial no site "
+"oficial do Zend Framework que possui links para ZF2 %swiki%s, %sdev blog%s, "
+"%sissue tracker%s, dentre outros. Este é um excelente material para se "
+"manter atualizado com os últimos desenvolvimentos!"
+
+#: module/Application/view/application/index/index.phtml:16
+msgid "ZF2 Development Portal"
+msgstr "Portal de Desenvolvimento do ZF2"
+
+#: module/Application/view/application/index/index.phtml:24
+msgid "Discover Modules"
+msgstr "Descubra Módulos"
+
+#: module/Application/view/application/index/index.phtml:27
+#, php-format
+msgid ""
+"The community is working on developing a community site to serve as a "
+"repository and gallery for ZF2 modules. The project is available %son GitHub"
+"%s. The site is currently live and currently contains a list of some of the "
+"modules already available for ZF2."
+msgstr ""
+"A Comunidade está trabalhando em desenvolver um site comunitário para servir "
+"como repositório e galeria de módulos ZF2. O projeto estará disponível %sem "
+"breve no GitHub%s. O site já está online e atualmente contém uma lista de "
+"alguns dos módulos já disponíveis para ZF2."
+
+#: module/Application/view/application/index/index.phtml:28
+msgid "Explore ZF2 Modules"
+msgstr "Explore Módulos ZF2"
+
+#: module/Application/view/application/index/index.phtml:36
+msgid "Help &amp; Support"
+msgstr "Help &amp; Support"
+
+#: module/Application/view/application/index/index.phtml:39
+#, php-format
+msgid ""
+"If you need any help or support while developing with ZF2, you may reach us "
+"via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
+"feedback you may have regarding the beta releases. Alternatively, you may "
+"subscribe and post questions to the %smailing lists%s."
+msgstr ""
+"Caso você precise de ajuda ou suporte enquanto desenvolve com ZF2, pode nos "
+"encontrar pelo %s#zftalk on Freenode%s. Vamos gostar muito de ouvir "
+"perguntas e opiniões que você possa ter em relação às versões beta. Também, "
+"você pode se registrar e enviar perguntar para a %slista de e-mail%s."
+
+#: module/Application/view/application/index/index.phtml:40
+msgid "Ping us on IRC"
+msgstr "Executar ping-nos no IRC"
+
+#: module/Application/view/error/404.phtml:1
+msgid "A 404 error occurred"
+msgstr "Ocorreu um erro de 404"
+
+#: module/Application/view/error/404.phtml:10
+msgid "The requested controller was unable to dispatch the request."
+msgstr "O controlador solicitado não foi capaz de despachar o pedido."
+
+#: module/Application/view/error/404.phtml:13
+msgid ""
+"The requested controller could not be mapped to an existing controller class."
+msgstr ""
+"O controlador solicitado não pode ser mapeado para uma classe de controlador "
+"existente."
+
+#: module/Application/view/error/404.phtml:16
+msgid "The requested controller was not dispatchable."
+msgstr "O controlador solicitado não foi despachável."
+
+#: module/Application/view/error/404.phtml:19
+msgid "The requested URL could not be matched by routing."
+msgstr "A URL solicitada não pode ser igualada por roteamento."
+
+#: module/Application/view/error/404.phtml:22
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr "Não podemos determinar neste momento porque um 404 foi gerado."
+
+#: module/Application/view/error/404.phtml:34
+msgid "Controller"
+msgstr "Controlador"
+
+#: module/Application/view/error/404.phtml:41
+#, php-format
+msgid "resolves to %s"
+msgstr "resolve %s"
+
+#: module/Application/view/error/404.phtml:53
+#: module/Application/view/error/index.phtml:8
+msgid "Additional information"
+msgstr "Informações adicionais"
+
+#: module/Application/view/error/404.phtml:56
+#: module/Application/view/error/404.phtml:81
+#: module/Application/view/error/index.phtml:11
+#: module/Application/view/error/index.phtml:36
+msgid "File"
+msgstr "Arquivo"
+
+#: module/Application/view/error/404.phtml:60
+#: module/Application/view/error/404.phtml:85
+#: module/Application/view/error/index.phtml:15
+#: module/Application/view/error/index.phtml:40
+msgid "Message"
+msgstr "Mensagem"
+
+#: module/Application/view/error/404.phtml:64
+#: module/Application/view/error/404.phtml:89
+#: module/Application/view/error/index.phtml:19
+#: module/Application/view/error/index.phtml:44
+msgid "Stack trace"
+msgstr "Stack trace"
+
+#: module/Application/view/error/404.phtml:75
+#: module/Application/view/error/index.phtml:30
+msgid "Previous exceptions"
+msgstr "Excepções anteriores"
+
+#: module/Application/view/error/404.phtml:109
+#: module/Application/view/error/index.phtml:64
+msgid "No Exception available"
+msgstr "Sem Excepção disponível"
+
+#: module/Application/view/error/index.phtml:1
+msgid "An error occurred"
+msgstr "Ocorreu um erro"
+
+#: module/Application/view/layout/default/footer.phtml:5
+msgid "All rights reserved."
+msgstr "Todos os direitos reservados."
+
+#: module/Application/view/layout/default/layout.phtml:27
+#: module/Application/view/layout/default/navbar.phtml:9
+msgid "TSS Application"
+msgstr "TSS Application"
+
+#: module/Application/view/tss/authentication/account/index.phtml:35
+msgid "Update information"
+msgstr "Atualizar informação"
+
+#: module/Application/view/tss/authentication/account/index.phtml:54
+msgid "Change password?"
+msgstr "Mudar senha?"
+
+#: module/Application/view/tss/authentication/account/index.phtml:68
+msgid "Choose the file"
+msgstr "Selecione o arquivo"
+
+#: module/Application/view/tss/authentication/layout/default.phtml:27
+msgid "TSS"
+msgstr "TSS"
+
+#: module/Application/view/tss/authentication/signin.phtml:2
+msgid "Sign in"
+msgstr "Entrar"
+
+#: module/Application/view/tss/authentication/signin.phtml:29
+msgid "Forgotten password"
+msgstr "Esqueceu a Senha"
+
+#: module/Application/view/tss/authentication/signin.phtml:40
+msgid "Don't have an account?"
+msgstr "Ainda não possui uma conta?"
+
+#: module/Application/view/tss/authentication/signin.phtml:42
+#: module/Application/view/tss/authentication/signup.phtml:2
+msgid "Sign up"
+msgstr "Inscreva-se"
+
+#: module/Application/view/tss/authentication/signup.phtml:33
+msgid "Already have an account?"
+msgstr "Já tem uma conta?"
+
+#: module/Application/view/tss/authentication/signup.phtml:35
+msgid "Please login"
+msgstr "Por favor entre"
+
+#~ msgid "bio"
+#~ msgstr "bio"
+
+#~ msgid "Eventos"
+#~ msgstr "Eventos"
+
+#~ msgid "Instituições"
+#~ msgstr "Instituições"
+
+#~ msgid "Países"
+#~ msgstr "Países"
+
+#~ msgid "Estados"
+#~ msgstr "Estados"
+
+#~ msgid "Cidades"
+#~ msgstr "Cidades"
+
+#~ msgid "Modalidades"
+#~ msgstr "Modalidades"
+
+#~ msgid "Ministrantes"
+#~ msgstr "Ministrantes"
+
+#~ msgid "Perfil"
+#~ msgstr "Perfil"
+
+#~ msgid "Sair"
+#~ msgstr "Sair"
+
+#~ msgid "Certificado não encontrado!"
+#~ msgstr "Certificado não encontrado!"
+
+#~ msgid "Certificado validado com sucesso!"
+#~ msgstr "Certificado validado com sucesso!"
+
+#~ msgid "Search City"
+#~ msgstr "Buscar Cidade"
+
+#~ msgid "City not found"
+#~ msgstr "Cidade não encontrada"
+
+#~ msgid "Search Country"
+#~ msgstr "Buscar País"
+
+#~ msgid "Buscar Evento"
+#~ msgstr "Buscar Evento"
+
+#~ msgid "Novo evento adicionado com sucesso!"
+#~ msgstr "Novo evento adicionado com sucesso!"
+
+#~ msgid "Evento não encontrado."
+#~ msgstr "Evento não encontrado."
+
+#~ msgid "Evento atualizado com sucesso!"
+#~ msgstr "Evento atualizado com sucesso!"
+
+#~ msgid "Evento excluído com sucesso!"
+#~ msgstr "Evento excluído com sucesso!"
+
+#~ msgid "Buscar Instituição"
+#~ msgstr "Buscar Instituição"
+
+#~ msgid "Nova instituição adicionada com sucesso!"
+#~ msgstr "Nova instituição adicionada com sucesso!"
+
+#~ msgid "Instituição não encontrada."
+#~ msgstr "Instituição não encontrada."
+
+#~ msgid "Instituição atualizada com sucesso!"
+#~ msgstr "Instituição atualizada com sucesso!"
+
+#~ msgid "Instituição excluída com sucesso!"
+#~ msgstr "Instituição excluída com sucesso!"
+
+#~ msgid "Buscar Ministrante"
+#~ msgstr "Buscar Ministrante"
+
+#~ msgid "Novo ministrante adicionado com sucesso!"
+#~ msgstr "Novo ministrante adicionado com sucesso!"
+
+#~ msgid "Formulário com erros!"
+#~ msgstr "Formulário com erros!"
+
+#~ msgid "Ministrante não encontrado."
+#~ msgstr "Ministrante não encontrado."
+
+#~ msgid "Ministrante atualizado com sucesso!"
+#~ msgstr "Ministrante atualizado com sucesso!"
+
+#~ msgid "Ministrante excluído com sucesso!"
+#~ msgstr "Ministrante excluído com sucesso!"
+
+#~ msgid "Search Modalidade"
+#~ msgstr "Buscar Modalidade"
+
+#~ msgid "Modalidade não encontrado."
+#~ msgstr "Modalidade não encontrado."
+
+#~ msgid "Modalidade atualizado com sucesso!"
+#~ msgstr "Modalidade atualizado com sucesso!"
+
+#~ msgid "Modalidade excluído com sucesso!"
+#~ msgstr "Modalidade excluído com sucesso!"
+
+#~ msgid "Buscar Participante"
+#~ msgstr "Buscar Participante"
+
+#~ msgid "Novo participante adicionado com sucesso!"
+#~ msgstr "Novo participante adicionado com sucesso!"
+
+#~ msgid "Participante não encontrado."
+#~ msgstr "Participante não encontrado."
+
+#~ msgid "Participante atualizado com sucesso!"
+#~ msgstr "Participante atualizado com sucesso!"
+
+#~ msgid "Em caso de edição. gerar novamente certificados!"
+#~ msgstr "Em caso de edição. gerar novamente certificados!"
+
+#~ msgid "Participante excluído com sucesso!"
+#~ msgstr "Participante excluído com sucesso!"
+
+#~ msgid "Certificados gerados com sucesso!"
+#~ msgstr "Certificados gerados com sucesso!"
+
+#~ msgid "Nenhum certificado foi gerado."
+#~ msgstr "Nenhum certificado foi gerado."
+
+#~ msgid "Certificado não encontrado."
+#~ msgstr "Certificado não encontrado."
+
+#~ msgid "Certificado reenviado com sucesso!"
+#~ msgstr "Certificado reenviado com sucesso!"
+
+#~ msgid "Mensagem"
+#~ msgstr "Mensagem"
+
+#~ msgid "Reenviar"
+#~ msgstr "Reenviar"
+
+#~ msgid "Certificados reenviados com sucesso!"
+#~ msgstr "Certificados reenviados com sucesso!"
+
+#~ msgid "Nenhum certificado foi reenviado."
+#~ msgstr "Nenhum certificado foi reenviado."
+
+#~ msgid "Search State"
+#~ msgstr "Buscar Estado"
+
+#~ msgid "State"
+#~ msgstr "Estado"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Shortname"
+#~ msgstr "Nome Curto"
+
+#~ msgid "Modalidade"
+#~ msgstr "Modalidade"
+
+#~ msgid "Select"
+#~ msgstr "Selecionar"
+
+#~ msgid "Data de Início"
+#~ msgstr "Data de Início"
+
+#~ msgid "Data de Término"
+#~ msgstr "Data de Término"
+
+#~ msgid "Carga Horária"
+#~ msgstr "Carga Horária"
+
+#~ msgid "Local"
+#~ msgstr "Local"
+
+#~ msgid "City"
+#~ msgstr "Cidade"
+
+#~ msgid "Ministrante"
+#~ msgstr "Ministrante"
+
+#~ msgid "Template"
+#~ msgstr "Template"
+
+#~ msgid "Comissão Organizadora"
+#~ msgstr "Comissão Organizadora"
+
+#~ msgid "Nome"
+#~ msgstr "Nome"
+
+#~ msgid "Organizador"
+#~ msgstr "Organizador"
+
+#~ msgid "Participante"
+#~ msgstr "Participante"
+
+#~ msgid "Country"
+#~ msgstr "País"
+
+#~ msgid "January"
+#~ msgstr "Janeiro"
+
+#~ msgid "February"
+#~ msgstr "Fevereiro"
+
+#~ msgid "March"
+#~ msgstr "Março"
+
+#~ msgid "April"
+#~ msgstr "Abril"
+
+#~ msgid "May"
+#~ msgstr "Maio"
+
+#~ msgid "June"
+#~ msgstr "Junho"
+
+#~ msgid "July"
+#~ msgstr "Julho"
+
+#~ msgid "August"
+#~ msgstr "Agosto"
+
+#~ msgid "September"
+#~ msgstr "Setembro"
+
+#~ msgid "October"
+#~ msgstr "Outubro"
+
+#~ msgid "November"
+#~ msgstr "Novembro"
+
+#~ msgid "December"
+#~ msgstr "Dezembro"
+
+#~ msgid "to"
+#~ msgstr "à"
+
+#~ msgid "of"
+#~ msgstr "de"
+
+#~ msgid "Certificado"
+#~ msgstr "Certificado"
+
+#~ msgid "Certificado Válido para"
+#~ msgstr "Certificado Válido para"
+
+#~ msgid "Cidade"
+#~ msgstr "Cidade"
+
+#~ msgid "Criado em"
+#~ msgstr "Criado em"
+
+#~ msgid "Certificado Inválido!"
+#~ msgstr "Certificado Inválido!"
+
+#~ msgid "Cities"
+#~ msgstr "Cidades"
+
+#~ msgid "Delete City"
+#~ msgstr "Excluir Cidade"
+
+#~ msgid "or"
+#~ msgstr "ou"
+
+#~ msgid "voltar para a lista"
+#~ msgstr "voltar para a lista"
+
+#~ msgid "Edit City"
+#~ msgstr "Editar Cidade"
+
+#~ msgid "New City"
+#~ msgstr "Nova Cidade"
+
+#~ msgid "0 cities"
+#~ msgstr "0 cidades"
+
+#~ msgid "Ações"
+#~ msgstr "Ações"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Delete"
+#~ msgstr "Excluir"
+
+#~ msgid "Countries"
+#~ msgstr "Países"
+
+#~ msgid "Delete Country"
+#~ msgstr "Excluir País"
+
+#~ msgid "Edit Country"
+#~ msgstr "Editar País"
+
+#~ msgid "New Country"
+#~ msgstr "Novo País"
+
+#~ msgid "0 countries"
+#~ msgstr "0 países"
+
+#~ msgid "Delete Evento"
+#~ msgstr "Excluir Evento"
+
+#~ msgid "Editar Evento"
+#~ msgstr "Editar Evento"
+
+#~ msgid "Novo Evento"
+#~ msgstr "Novo Evento"
+
+#~ msgid "0 Eventos"
+#~ msgstr "0 Eventos"
+
+#~ msgid "Início"
+#~ msgstr "Início"
+
+#~ msgid "Término"
+#~ msgstr "Término"
+
+#~ msgid "Participantes"
+#~ msgstr "Participantes"
+
+#~ msgid "Instituição"
+#~ msgstr "Instituição"
+
+#~ msgid "Editar Instituição"
+#~ msgstr "Editar Instituição"
+
+#~ msgid "Nova Instituição"
+#~ msgstr "Nova Instituição"
+
+#~ msgid "0 Instituições"
+#~ msgstr "0 Instituições"
+
+#~ msgid "Owner"
+#~ msgstr "Proprietário"
+
+#~ msgid "Excluir Ministrante"
+#~ msgstr "Excluir Ministrante"
+
+#~ msgid "Editar Ministrante"
+#~ msgstr "Editar Ministrante"
+
+#~ msgid "Novo Ministrante"
+#~ msgstr "Novo Ministrante"
+
+#~ msgid "0 ministrantes"
+#~ msgstr "0 ministrantes"
+
+#~ msgid "Excluir Modalidade"
+#~ msgstr "Excluir Modalidade"
+
+#~ msgid "Editar Modalidade"
+#~ msgstr "Editar Modalidade"
+
+#~ msgid "Novo Modalidade"
+#~ msgstr "Novo Modalidade"
+
+#~ msgid "0 modalidades"
+#~ msgstr "0 modalidades"
+
+#~ msgid "Nova Modalidade"
+#~ msgstr "Nova Modalidade"
+
+#~ msgid "Delete Participante"
+#~ msgstr "Excluir Participante"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Edit Paricipante"
+#~ msgstr "Editar Participante"
+
+#~ msgid "Evento"
+#~ msgstr "Evento"
+
+#~ msgid "0 participantes"
+#~ msgstr "0 participantes"
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "Gerar Certificados"
+#~ msgstr "Gerar Certificados"
+
+#~ msgid "Reenviar Certificados"
+#~ msgstr "Reenviar Certificados"
+
+#~ msgid "Novo Participante"
+#~ msgstr "Novo Participante"
+
+#~ msgid "States"
+#~ msgstr "Estados"
+
+#~ msgid "Delete State"
+#~ msgstr "Excluir Estado"
+
+#~ msgid "Edit State"
+#~ msgstr "Editar Estado"
+
+#~ msgid "New State"
+#~ msgstr "Novo Estado"
+
+#~ msgid "0 states"
+#~ msgstr "0 estados"
+
+#~ msgid "Certz"
+#~ msgstr "Certz"
+
+#~ msgid "Cadastros"
+#~ msgstr "Cadastros"
+
+#~ msgid "New city add with success!"
+#~ msgstr "Nova cidade adicionada com sucesso!"
+
+#~ msgid "City updated with success!"
+#~ msgstr "Cidade atualizada com sucesso!"
+
+#~ msgid "City not found."
+#~ msgstr "Cidade não encontrada."
+
+#~ msgid "City deleted with success!"
+#~ msgstr "Cidade excluída com sucesso!"
+
+#~ msgid "New country add with success!"
+#~ msgstr "Novo país adicionado com sucesso!"
+
+#~ msgid "Country not found."
+#~ msgstr "País não encontrado."
+
+#~ msgid "Country updated with success!"
+#~ msgstr "País  atualizado com sucesso!"
+
+#~ msgid "Country deleted with success!"
+#~ msgstr "Estado excluído com sucesso!"
+
+#~ msgid "Search Evento"
+#~ msgstr "Buscar Evento"
+
+#~ msgid "New evento add with success!"
+#~ msgstr "Novo evento adicionado com sucesso!"
+
+#~ msgid "Evento not found."
+#~ msgstr "Evento não encontrado."
+
+#~ msgid "Evento updated with success!"
+#~ msgstr "Evento  atualizado com sucesso!"
+
+#~ msgid "Event deleted with success!"
+#~ msgstr "Evento excluído com sucesso!"
+
+#~ msgid "Search Ministrante"
+#~ msgstr "Buscar Ministrante"
+
+#~ msgid "New ministrante add with success!"
+#~ msgstr "Novo ministrante adicionado com sucesso!"
+
+#~ msgid "Ministrante not found."
+#~ msgstr "Ministrante não encontrado."
+
+#~ msgid "Ministrante updated with success!"
+#~ msgstr "Ministrante  atualizado com sucesso!"
+
+#~ msgid "Ministrante deleted with success!"
+#~ msgstr "Ministrante excluído com sucesso!"
+
+#~ msgid "New modalidade add with success!"
+#~ msgstr "Nova modalidade adicionada com sucesso!"
+
+#~ msgid "Modalidade not found."
+#~ msgstr "Modalidade não encotrada."
+
+#~ msgid "Modalidade updated with success!"
+#~ msgstr "Modalidade atualizada com sucesso!"
+
+#~ msgid "Modalidade deleted with success!"
+#~ msgstr "Modalidade excluída com sucesso!"
+
+#~ msgid "Search Participante"
+#~ msgstr "Buscar Participante"
+
+#~ msgid "New participante add with success!"
+#~ msgstr "Novo participante adicionado com sucesso!"
+
+#~ msgid "Participante not found"
+#~ msgstr "Participante não encontrado"
+
+#~ msgid "%s updated with success"
+#~ msgstr "%s atualizado com sucesso"
+
+#~ msgid "Participante not found."
+#~ msgstr "Participante não encontrado."
+
+#~ msgid "Participante deleted with success!"
+#~ msgstr "Participante excluído com sucesso!"
+
+#~ msgid "New state add with success!"
+#~ msgstr "Novo estado adicionado com sucesso!"
+
+#~ msgid "State not found."
+#~ msgstr "Estado não encontrado."
+
+#~ msgid "State updated with success!"
+#~ msgstr "Estado atualizado com sucesso!"
+
+#~ msgid "State deleted with success!"
+#~ msgstr "Estado excluído com sucesso!"
+
+#~ msgid "Ministrante Template"
+#~ msgstr "Template Ministrante "
+
+#~ msgid "Created at"
+#~ msgstr "Criado em"
+
+#~ msgid "back to list"
+#~ msgstr "voltar para a listagem"
+
+#~ msgid "Actions"
+#~ msgstr "Ações"
+
+#~ msgid "Edit Evento"
+#~ msgstr "Editar Evento"
+
+#~ msgid "New Evento"
+#~ msgstr "Novo Evento"
+
+#~ msgid "Delete Ministrante"
+#~ msgstr "Excluir Ministrante"
+
+#~ msgid "Edit Ministrante"
+#~ msgstr "Editar Ministrante"
+
+#~ msgid "New Ministrante"
+#~ msgstr "Novo Ministrante"
+
+#~ msgid "Delete Modalidade"
+#~ msgstr "Excluir Modalidade"
+
+#~ msgid "Edit Modalidade"
+#~ msgstr "Editar Modalidade"
+
+#~ msgid "New Modalidade"
+#~ msgstr "Nova Modalidade"
+
+#~ msgid "New Participante"
+#~ msgstr "Novo Participante"

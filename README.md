@@ -1,2 +1,3 @@
-# ark-torch
+# ZettaCode/ArkTorch
+
 Repository of ArkTorch
