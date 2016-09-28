@@ -22,77 +22,77 @@ return [
                     'reuseMatchedParams' => false
                 ],
                 'redirect' => [
-                    'name' => 'home',
-                    'params' => [],
+                    'name' => 'arkTorch',
+                    'params' => ['controller' => 'dashboard'],
                     'options' => [],
                     'reuseMatchedParams' => false
                 ],
                 'authenticate' => [
-                    'name' => 'tssAuthentication/authenticate',
+                    'name' => 'arkTorchAuth/authenticate',
                     'params' => [],
                     'options' => [],
                     'reuseMatchedParams' => false
                 ],
                 'confirm-email' => [
-                    'name' => 'tssAuthentication/confirm-email',
+                    'name' => 'arkTorchAuth/confirm-email',
                     'params' => [],
                     'options' => [],
                     'reuseMatchedParams' => false
                 ],
                 'password-recover' => [
-                    'name' => 'tssAuthentication/password-recover',
+                    'name' => 'arkTorchAuth/password-recover',
                     'params' => [],
                     'options' => [],
                     'reuseMatchedParams' => false
                 ],
                 'recover' => [
-                    'name' => 'tssAuthentication/recover',
+                    'name' => 'arkTorchAuth/recover',
                     'params' => [],
                     'options' => [],
                     'reuseMatchedParams' => false
                 ],
                 'signin' => [
-                    'name' => 'tssAuthentication/signin',
+                    'name' => 'arkTorchAuth/signin',
                     'params' => [],
                     'options' => [],
                     'reuseMatchedParams' => false
                 ],
                 'signout' => [
-                    'name' => 'tssAuthentication/signout',
+                    'name' => 'arkTorchAuth/signout',
                     'params' => [],
                     'options' => [],
                     'reuseMatchedParams' => false
                 ],
                 'signup' => [
-                    'name' => 'tssAuthentication/signup',
+                    'name' => 'arkTorchAuth/signup',
                     'params' => [],
                     'options' => [],
                     'reuseMatchedParams' => false
                 ],
                 'account' => [
-                    'name' => 'tssAuthentication/default',
+                    'name' => 'arkTorchAuth/default',
                     'params' => ['controller' => 'account'],
                     'options' => [],
                     'reuseMatchedParams' => false
                 ],
                 'password-change' => [
-                    'name' => 'tssAuthentication/default',
+                    'name' => 'arkTorchAuth/default',
                     'params' => ['controller' => 'account', 'action' => 'password-change'],
                     'options' => [],
                     'reuseMatchedParams' => false
                 ]
             ],
             'config' => [
-                'identityClass' => Application\Entity\User::class,
+                'identityClass' => ArkTorch\Entity\User::class,
                 'identityProperty' => 'username',
-                'credentialClass' => Application\Entity\Credential::class,
+                'credentialClass' => ArkTorch\Entity\Credential::class,
                 'credentialProperty' => 'value',
                 'credentialIdentityProperty' => 'user',
-                'credentialType' => Application\Entity\Credential::TYPE_PASSWORD,
-                'credential_callable' => 'Application\Entity\User::checkPassword',
+                'credentialType' => ArkTorch\Entity\Credential::TYPE_PASSWORD,
+                'credential_callable' => 'ArkTorch\Entity\User::checkPassword',
                 'identityEmail' => 'email',
-                'identityActive' => false,
-                'roleClass' => Application\Entity\Role::class,
+                'signAllowed' => false,
+                'roleClass' => ArkTorch\Entity\Role::class,
                 'roleDefault' => 2
             ],
 
@@ -106,8 +106,18 @@ return [
                 'resources' => [
                     'allow' => [
                         'Application\Controller\Index' => [
+                            'index' => ['Guest'],
                             '' => ['Member']
                         ],
+
+                        'ArkTorch\Controller\Dashboard' => [
+                            '' => ['Member']
+                        ],
+                        'ArkTorch\Controller\Index' => [
+                            'index' => ['Guest'],
+                            '' => ['Member']
+                        ],
+
                         'TSS\Authentication\Controller\Account' => [
                             '' => ['Member']
                         ],

@@ -9,8 +9,9 @@ return [
         'default' => [
             [
                 'label' => _('Home'),
-                'route' => 'home',
-                'resource' => 'Application\Controller\Index',
+                'route' => 'arkTorch',
+                'controller' => 'dashboard',
+                'resource' => 'ArkTorch\Controller\Dashboard',
                 'privilege' => 'index',
             ],
             [
@@ -26,7 +27,7 @@ return [
                     [
                         'label' => _('Profile'),
                         'addon-left' => '<i class="fa fa-user fa-fw"></i> ',
-                        'route' => 'tssAuthentication/default',
+                        'route' => 'arkTorchAuth/default',
                         'controller' => 'account',
                         'resource' => 'TSS\Authentication\Controller\Account',
                         'privilege' => 'index',
@@ -34,7 +35,7 @@ return [
                     [
                         'label' => _('Sign out'),
                         'addon-left' => '<i class="fa fa-sign-out fa-fw"></i> ',
-                        'route' => 'tssAuthentication/signout',
+                        'route' => 'arkTorchAuth/signout',
                         'resource' => 'TSS\Authentication\Controller\Auth',
                         'privilege' => 'signout',
                     ],

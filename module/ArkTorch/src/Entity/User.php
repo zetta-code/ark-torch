@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2016 Zetta Code
  */
 
-namespace Application\Entity;
+namespace ArkTorch\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;

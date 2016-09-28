@@ -35,12 +35,14 @@
   },
   "autoload": {
     "psr-4": {
-      "Application\\": "module/Application/src/"
+      "Application\\": "module/Application/src/",
+      "ArkTorch\\": "module/ArkTorch/src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ApplicationTest\\": "module/Application/test/"
+      "ApplicationTest\\": "module/Application/test/",
+      "ArkTorchTest\\": "module/ArkTorch/test/"
     }
   },
   "extra": [],

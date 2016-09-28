@@ -31,4 +31,5 @@ return [
     'TSS\DoctrineUtil',
     'TSS\Authentication',
     'Application',
+    'ArkTorch',
 ];
