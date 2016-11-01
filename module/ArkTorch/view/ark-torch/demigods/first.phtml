@@ -1,0 +1,31 @@
+<?php $this->headTitle($this->translate('Demigods')); ?>
+<h1 class="page-title">
+    <?php echo $this->translate('First Demigod'); ?>
+    <div class="pull-right">
+        <a class="btn btn-sm btn-default" href="<?php echo $this->url('arkTorch', array('controller' => 'dashboard'));?>">
+            <i class="fa fa-arrow-left"></i>
+            <?php echo $this->translate('Back'); ?>
+        </a>
+    </div>
+</h1>
+
+<div class="row">
+    <div class="col-sm-6">
+
+        <?php
+        echo $this->form()->openTag($form);
+        $demigodFieldset = $form->get('demigod');
+        ?>
+
+        <?php echo $this->formHidden($demigodFieldset->get('id')); ?>
+        <?php echo $this->tssFormRow($demigodFieldset->get('name')); ?>
+        <div class="form-group">
+            <?php echo $this->formRow($form->get('submit')); ?>
+            <?php echo $this->translate('or'); ?>
+            <a href="<?php echo $this->url('arkTorch', array('controller' => 'dashboard')); ?>">
+                <?php echo $this->translate('back to list'); ?>
+            </a>
+        </div>
+        <?php echo $this->form()->closeTag(); ?>
+    </div>
+</div>

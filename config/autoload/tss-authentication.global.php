@@ -113,9 +113,15 @@ return [
                         'ArkTorch\Controller\Dashboard' => [
                             '' => ['Member']
                         ],
+                        'ArkTorch\Controller\Demigods' => [
+                            '' => ['Member']
+                        ],
                         'ArkTorch\Controller\Index' => [
                             'index' => ['Guest'],
                             '' => ['Member']
+                        ],
+                        'ArkTorch\Controller\Setup' => [
+                            '' => ['Admin']
                         ],
 
                         'TSS\Authentication\Controller\Account' => [

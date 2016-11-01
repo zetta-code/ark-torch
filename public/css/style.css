@@ -20,3 +20,13 @@ footer {
     border-top: 1px solid #e7e7e7;
     background-color: #f8f8f8;
 }
+
+.inhabitant {
+    background: transparent url('../img/tiles/inhabitants.png') no-repeat left top;
+    width: 64px;
+    height: 56px;
+}
+
+.inhabitant-1-1 {
+    background-position: -64px -56px;
+}

@@ -22,11 +22,15 @@ return [
     'controllers' => [
         'aliases' => [
             'ArkTorch\Controller\Dashboard' =>  Controller\DashboardController::class,
-            'ArkTorch\Controller\Index' =>  Controller\IndexController::class
+            'ArkTorch\Controller\Demigods' =>  Controller\DemigodsController::class,
+            'ArkTorch\Controller\Index' =>  Controller\IndexController::class,
+            'ArkTorch\Controller\Setup' =>  Controller\SetupController::class
         ],
         'factories' => [
-            Controller\DashboardController::class => InvokableFactory::class,
-            Controller\IndexController::class => InvokableFactory::class
+            Controller\DashboardController::class => Controller\EntityManagerControllerFactory::class,
+            Controller\DemigodsController::class => Controller\EntityManagerControllerFactory::class,
+            Controller\IndexController::class => InvokableFactory::class,
+            Controller\SetupController::class => Controller\SetupControllerFactory::class
         ],
     ],
 

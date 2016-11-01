@@ -15,6 +15,13 @@ return [
                 'privilege' => 'index',
             ],
             [
+                'label' => _('Setup'),
+                'route' => 'arkTorch',
+                'controller' => 'setup',
+                'resource' => 'ArkTorch\Controller\Setup',
+                'privilege' => 'index',
+            ],
+            [
                 'label' => '<span class="fa fa-user fa-lg"></span> <b class="caret"></b>',
                 'uri' => ' ',
                 'attribs' => ['data-toggle' => 'dropdown'],

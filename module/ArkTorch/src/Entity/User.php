@@ -1,6 +1,6 @@
 <?php
 /**
- * @link      http://github.com/zetta-repo/tss-skeleton for the canonical source repository
+ * @link      http://github.com/zetta-repo/ark-torch for the canonical source repository
  * @copyright Copyright (c) 2016 Zetta Code
  */
 
@@ -39,11 +39,23 @@ class User extends AbstractUser
     protected $role;
 
     /**
+     * @var ArrayCollection
+     *
+     * @ORM\ManyToMany(targetEntity="Inhabitant", inversedBy="users", cascade={"all"}, orphanRemoval=true, fetch="EXTRA_LAZY")
+     * @ORM\JoinTable(name="inhabitants_users",
+     *      joinColumns={@ORM\JoinColumn(name="user_id", referencedColumnName="id")},
+     *      inverseJoinColumns={@ORM\JoinColumn(name="inhabitant_id", referencedColumnName="id")}
+     *      )
+     */
+    protected $inhabitants;
+
+    /**
      * Construct
      */
     public function __construct()
     {
         $this->credentials = new ArrayCollection();
+        $this->inhabitants = new ArrayCollection();
         $this->status = self::STATUS_ACTIVE;
         $this->active = true;
         $this->confirmedEmail = false;
@@ -91,6 +103,34 @@ class User extends AbstractUser
     public function setRole($role)
     {
         $this->role = $role;
+    }
+
+    /**
+     * @return ArrayCollection
+     */
+    public function getInhabitants()
+    {
+        return $this->inhabitants;
+    }
+
+    /**
+     * Add inhabitant to inhabitants
+     *
+     * @param Inhabitant $inhabitant
+     */
+    public function addInhabitant($inhabitant)
+    {
+        $this->inhabitants->add($inhabitant);
+    }
+
+    /**
+     * Remove inhabitant to inhabitants
+     *
+     * @param Inhabitant $inhabitant
+     */
+    public function removeInhabitant($inhabitant)
+    {
+        $this->inhabitants->removeElement($inhabitant);
     }
 
     /**

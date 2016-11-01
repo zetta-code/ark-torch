@@ -1,6 +1,6 @@
 <?php
 /**
- * @link      http://github.com/zetta-repo/tss-skeleton for the canonical source repository
+ * @link      http://github.com/zetta-repo/ark-torch for the canonical source repository
  * @copyright Copyright (c) 2016 Zetta Code
  */
 
@@ -17,6 +17,9 @@ use TSS\Authentication\Entity\AbstractRole;
  */
 class Role extends AbstractRole
 {
+    const ADMIN = 1;
+    const MEMBER = 2;
+
     /**
      * Constructor
      */

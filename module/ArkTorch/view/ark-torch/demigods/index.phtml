@@ -1,0 +1,47 @@
+<h1>
+    Fortress
+</h1>
+<div class="row">
+    <div class="col-lg-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="center-block inhabitant inhabitant-1-1"></div>
+            </div>
+            <div class="panel-body">
+                <div><i class="fa fa-user"></i> <strong><?php echo $demigod->getName(); ?></strong></div>
+
+                <div class="clearfix">
+                    <strong> <?php echo $stats[\ArkTorch\Entity\Stat::STAT_HP]->getStat()->getShortName(); ?></strong>
+                    <span class="pull-right">
+                        <?php echo $stats[\ArkTorch\Entity\Stat::STAT_HP]->value(); ?>/<?php echo $stats[\ArkTorch\Entity\Stat::STAT_MAX_HP]->value(); ?>
+                    </span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success" role="progressbar"
+                         aria-valuenow="<?php echo $stats[\ArkTorch\Entity\Stat::STAT_HP]->value(); ?>"
+                         aria-valuemin="0"
+                         aria-valuemax="<?php echo $stats[\ArkTorch\Entity\Stat::STAT_MAX_HP]->value(); ?>"
+                         style="width: <?php echo $stats[\ArkTorch\Entity\Stat::STAT_HP]->value() / $stats[\ArkTorch\Entity\Stat::STAT_MAX_HP]->value() * 100; ?>%;"
+                    >
+                    </div>
+                </div>
+
+                <div class="clearfix">
+                    <strong> <?php echo $stats[\ArkTorch\Entity\Stat::STAT_MANA]->getStat()->getShortName(); ?></strong>
+                    <span class="pull-right">
+                        <?php echo $stats[\ArkTorch\Entity\Stat::STAT_MANA]->value(); ?>/<?php echo $stats[\ArkTorch\Entity\Stat::STAT_MAX_MANA]->value(); ?>
+                    </span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar"
+                         aria-valuenow="<?php echo $stats[\ArkTorch\Entity\Stat::STAT_MANA]->value(); ?>"
+                         aria-valuemin="0"
+                         aria-valuemax="<?php echo $stats[\ArkTorch\Entity\Stat::STAT_MAX_MANA]->value(); ?>"
+                         style="width: <?php echo $stats[\ArkTorch\Entity\Stat::STAT_MANA]->value() / $stats[\ArkTorch\Entity\Stat::STAT_MAX_MANA]->value() * 100; ?>%;"
+                    >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
